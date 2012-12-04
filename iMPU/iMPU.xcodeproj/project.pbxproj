@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA0FB587165CE5C8008537A0 /* report.xml in Resources */ = {isa = PBXBuildFile; fileRef = FA0FB586165CE5C8008537A0 /* report.xml */; };
+		FA717F31166CA85D00F553D3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA717F30166CA85D00F553D3 /* AudioToolbox.framework */; };
+		FA796949165E3D7F000D217C /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA796948165E3D7F000D217C /* libz.dylib */; };
+		FA79694B165E3D92000D217C /* libbz2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA79694A165E3D92000D217C /* libbz2.1.0.dylib */; };
+		FA79694D165E3DB7000D217C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA79694C165E3DB7000D217C /* AVFoundation.framework */; };
+		FA79694F165E3DD3000D217C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA79694E165E3DD3000D217C /* MobileCoreServices.framework */; };
+		FA796951165E3DE4000D217C /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA796950165E3DE4000D217C /* CoreVideo.framework */; };
+		FA796953165E3DEC000D217C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA796952165E3DEC000D217C /* QuartzCore.framework */; };
+		FA796955165E3DF4000D217C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA796954165E3DF4000D217C /* OpenGLES.framework */; };
+		FA79695E165E3EB1000D217C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA79695D165E3EB1000D217C /* CoreMedia.framework */; };
+		FAB6394416630D3D00D03C47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB6394216630D3D00D03C47 /* ViewController.m */; };
+		FAB6394516630D3D00D03C47 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB6394316630D3D00D03C47 /* ViewController.xib */; };
+		FAE58B04165A2AF9003894BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE58B03165A2AF9003894BC /* UIKit.framework */; };
+		FAE58B06165A2AF9003894BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE58B05165A2AF9003894BC /* Foundation.framework */; };
+		FAE58B08165A2AF9003894BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE58B07165A2AF9003894BC /* CoreGraphics.framework */; };
+		FAE58B0E165A2AF9003894BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAE58B0C165A2AF9003894BC /* InfoPlist.strings */; };
+		FAE58B10165A2AF9003894BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE58B0F165A2AF9003894BC /* main.m */; };
+		FAE58B14165A2AF9003894BC /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = FAE58B13165A2AF9003894BC /* AppDelegate.mm */; };
+		FAE58B30165A2B62003894BC /* libiMpuSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE58B2C165A2B07003894BC /* libiMpuSdk.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAE58B2B165A2B07003894BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAE58B24165A2B07003894BC /* iMpuSdk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FAE58677165A1B97003894BC;
+			remoteInfo = iMpuSdk;
+		};
+		FAE58B2E165A2B5C003894BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAE58B24165A2B07003894BC /* iMpuSdk.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE58676165A1B97003894BC;
+			remoteInfo = iMpuSdk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA0FB586165CE5C8008537A0 /* report.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = report.xml; path = ../MpuSdk/iMpuSdk/iMpuSdk/report.xml; sourceTree = "<group>"; };
+		FA717F30166CA85D00F553D3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FA796948165E3D7F000D217C /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		FA79694A165E3D92000D217C /* libbz2.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbz2.1.0.dylib; path = usr/lib/libbz2.1.0.dylib; sourceTree = SDKROOT; };
+		FA79694C165E3DB7000D217C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FA79694E165E3DD3000D217C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FA796950165E3DE4000D217C /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		FA796952165E3DEC000D217C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FA796954165E3DF4000D217C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		FA79695D165E3EB1000D217C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		FAB6394116630D3D00D03C47 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAB6394216630D3D00D03C47 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAB6394316630D3D00D03C47 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		FAE58AFF165A2AF9003894BC /* iTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE58B03165A2AF9003894BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FAE58B05165A2AF9003894BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAE58B07165A2AF9003894BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FAE58B0B165A2AF9003894BC /* iMPU-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iMPU-Info.plist"; sourceTree = "<group>"; };
+		FAE58B0D165A2AF9003894BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAE58B0F165A2AF9003894BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAE58B11165A2AF9003894BC /* iMPU-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iMPU-Prefix.pch"; sourceTree = "<group>"; };
+		FAE58B12165A2AF9003894BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAE58B13165A2AF9003894BC /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		FAE58B24165A2B07003894BC /* iMpuSdk.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = iMpuSdk.xcodeproj; path = ../MpuSdk/iMpuSdk/iMpuSdk.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAE58AFC165A2AF9003894BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA717F31166CA85D00F553D3 /* AudioToolbox.framework in Frameworks */,
+				FA79695E165E3EB1000D217C /* CoreMedia.framework in Frameworks */,
+				FA796955165E3DF4000D217C /* OpenGLES.framework in Frameworks */,
+				FA796953165E3DEC000D217C /* QuartzCore.framework in Frameworks */,
+				FA796951165E3DE4000D217C /* CoreVideo.framework in Frameworks */,
+				FA79694F165E3DD3000D217C /* MobileCoreServices.framework in Frameworks */,
+				FA79694D165E3DB7000D217C /* AVFoundation.framework in Frameworks */,
+				FA79694B165E3D92000D217C /* libbz2.1.0.dylib in Frameworks */,
+				FA796949165E3D7F000D217C /* libz.dylib in Frameworks */,
+				FAE58B30165A2B62003894BC /* libiMpuSdk.a in Frameworks */,
+				FAE58B04165A2AF9003894BC /* UIKit.framework in Frameworks */,
+				FAE58B06165A2AF9003894BC /* Foundation.framework in Frameworks */,
+				FAE58B08165A2AF9003894BC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAE58AF4165A2AF9003894BC = {
+			isa = PBXGroup;
+			children = (
+				FA717F30166CA85D00F553D3 /* AudioToolbox.framework */,
+				FA0FB586165CE5C8008537A0 /* report.xml */,
+				FAE58B24165A2B07003894BC /* iMpuSdk.xcodeproj */,
+				FAE58B09165A2AF9003894BC /* iMPU */,
+				FAE58B02165A2AF9003894BC /* Frameworks */,
+				FAE58B00165A2AF9003894BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAE58B00165A2AF9003894BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAE58AFF165A2AF9003894BC /* iTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAE58B02165A2AF9003894BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA79694A165E3D92000D217C /* libbz2.1.0.dylib */,
+				FA796948165E3D7F000D217C /* libz.dylib */,
+				FA79695D165E3EB1000D217C /* CoreMedia.framework */,
+				FA796954165E3DF4000D217C /* OpenGLES.framework */,
+				FA796952165E3DEC000D217C /* QuartzCore.framework */,
+				FA796950165E3DE4000D217C /* CoreVideo.framework */,
+				FA79694E165E3DD3000D217C /* MobileCoreServices.framework */,
+				FA79694C165E3DB7000D217C /* AVFoundation.framework */,
+				FAE58B03165A2AF9003894BC /* UIKit.framework */,
+				FAE58B05165A2AF9003894BC /* Foundation.framework */,
+				FAE58B07165A2AF9003894BC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAE58B09165A2AF9003894BC /* iMPU */ = {
+			isa = PBXGroup;
+			children = (
+				FAE58B12165A2AF9003894BC /* AppDelegate.h */,
+				FAE58B13165A2AF9003894BC /* AppDelegate.mm */,
+				FAB6394116630D3D00D03C47 /* ViewController.h */,
+				FAB6394216630D3D00D03C47 /* ViewController.m */,
+				FAB6394316630D3D00D03C47 /* ViewController.xib */,
+				FAE58B0A165A2AF9003894BC /* Supporting Files */,
+			);
+			path = iMPU;
+			sourceTree = "<group>";
+		};
+		FAE58B0A165A2AF9003894BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAE58B0B165A2AF9003894BC /* iMPU-Info.plist */,
+				FAE58B0C165A2AF9003894BC /* InfoPlist.strings */,
+				FAE58B0F165A2AF9003894BC /* main.m */,
+				FAE58B11165A2AF9003894BC /* iMPU-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAE58B25165A2B07003894BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAE58B2C165A2B07003894BC /* libiMpuSdk.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAE58AFE165A2AF9003894BC /* iMPU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE58B1D165A2AF9003894BC /* Build configuration list for PBXNativeTarget "iMPU" */;
+			buildPhases = (
+				FAE58AFB165A2AF9003894BC /* Sources */,
+				FAE58AFC165A2AF9003894BC /* Frameworks */,
+				FAE58AFD165A2AF9003894BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAE58B2F165A2B5C003894BC /* PBXTargetDependency */,
+			);
+			name = iMPU;
+			productName = iMPU;
+			productReference = FAE58AFF165A2AF9003894BC /* iTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAE58AF6165A2AF9003894BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Crearo;
+			};
+			buildConfigurationList = FAE58AF9165A2AF9003894BC /* Build configuration list for PBXProject "iMPU" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAE58AF4165A2AF9003894BC;
+			productRefGroup = FAE58B00165A2AF9003894BC /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FAE58B25165A2B07003894BC /* Products */;
+					ProjectRef = FAE58B24165A2B07003894BC /* iMpuSdk.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				FAE58AFE165A2AF9003894BC /* iMPU */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FAE58B2C165A2B07003894BC /* libiMpuSdk.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libiMpuSdk.a;
+			remoteRef = FAE58B2B165A2B07003894BC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAE58AFD165A2AF9003894BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE58B0E165A2AF9003894BC /* InfoPlist.strings in Resources */,
+				FA0FB587165CE5C8008537A0 /* report.xml in Resources */,
+				FAB6394516630D3D00D03C47 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAE58AFB165A2AF9003894BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE58B10165A2AF9003894BC /* main.m in Sources */,
+				FAE58B14165A2AF9003894BC /* AppDelegate.mm in Sources */,
+				FAB6394416630D3D00D03C47 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAE58B2F165A2B5C003894BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iMpuSdk;
+			targetProxy = FAE58B2E165A2B5C003894BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAE58B0C165A2AF9003894BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE58B0D165A2AF9003894BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAE58B1B165A2AF9003894BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Gao YuanBiao (K3B6V3NMMW)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../MpuSdk/iMpuSdk/iMpuSdk;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CECEF313-B369-4263-918C-977B6C03C8D5";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAE58B1C165A2AF9003894BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../MpuSdk/iMpuSdk/iMpuSdk;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAE58B1E165A2AF9003894BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iMPU/iMPU-Prefix.pch";
+				INFOPLIST_FILE = "iMPU/iMPU-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = iTest;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FAE58B1F165A2AF9003894BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iMPU/iMPU-Prefix.pch";
+				INFOPLIST_FILE = "iMPU/iMPU-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = iTest;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAE58AF9165A2AF9003894BC /* Build configuration list for PBXProject "iMPU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE58B1B165A2AF9003894BC /* Debug */,
+				FAE58B1C165A2AF9003894BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE58B1D165A2AF9003894BC /* Build configuration list for PBXNativeTarget "iMPU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE58B1E165A2AF9003894BC /* Debug */,
+				FAE58B1F165A2AF9003894BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAE58AF6165A2AF9003894BC /* Project object */;
+}

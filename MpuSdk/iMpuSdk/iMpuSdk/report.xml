@@ -1,0 +1,85 @@
+<Msg Name="PUCommonMsgRpt">
+    <DstRes Enable="1" Type="SELF" Idx="0" OptID="CFG_ST_ResDescSets" Setable="0">
+    <Param>
+        <Station Name="U8836D" Desc="iPhone">
+        <Res ResType="IV" ResIdx="0" Name="camera" Desc="iPhone camera" Enable="1"></Res>
+        <Res ResType="OA" ResIdx="0" Name="phone" Desc="phone" Enable="1"></Res>
+        <Res ResType="IA" ResIdx="0" Name="micphone" Desc="micphone" Enable="1"></Res>
+        <Res ResType="GPS" ResIdx="0" Name="gps" Desc="gps" Enable="1"></Res>
+        </Station>
+    </Param>
+    </DstRes>
+    <DstRes Type="IV" Idx="0" OptID="CFG_IV_SupportedEncoderSets" Setable="0">
+        <Param>
+            <Encoder>H264</Encoder>
+        </Param>
+    </DstRes>
+    <DstRes Type="IV" Idx="0" OptID="CFG_IV_Encoder" Setable="1">
+        <Param Value="H264"></Param>
+    </DstRes>
+    <DstRes Type="IV" Idx="0" OptID="CFG_IV_SupportedStreamTypeSets" Setable="0">
+        <Param><StreamType>REALTIME</StreamType>
+        </Param>
+    </DstRes>
+    <DstRes Type="IV" Idx="0" OptID="CFG_IV_EnableStreamType" Setable="0">
+        <Param Value="0"></Param>
+    </DstRes>
+    <DstRes Type="OA" Idx="0" OptID="CFG_OA_SupportedOutputSampleRateSets" Setable="0">
+        <Param>
+            <OutputSample>8000</OutputSample>
+        </Param>
+    </DstRes>
+    <DstRes Type="OA" Idx="0" OptID="CFG_OA_OutputSampleRate" Setable="0">
+        <Param Value="8000"></Param>
+    </DstRes>
+    <DstRes Type="OA" Idx="0" OptID="CFG_OA_SupportedDecoderSets" Setable="0">
+        <Param>
+            <Decoder>ADPCM</Decoder></Param>
+    </DstRes>
+    <DstRes Type="OA" Idx="0" OptID="CFG_OA_Decoder" Setable="0">
+        <Param Value="AMR"></Param>
+    </DstRes>
+    <DstRes Type="OA" Idx="0" OptID="CFG_OA_SupportedEncoderSets" Setable="0">
+        <Param>
+            <Encoder>ADPCM</Encoder>
+        </Param>
+    </DstRes>
+    <DstRes Type="OA" Idx="0" OptID="CFG_OA_Encoder" Setable="0">
+        <Param Value="ADPCM"></Param>
+    </DstRes>
+    <DstRes Type="OA" Idx="0" OptID="CFG_OA_DecoderProducerID" Setable="0">
+        <Param Value="1"></Param>
+    </DstRes>
+    <DstRes Type="IA" Idx="0" OptID="CFG_IA_SupportedInputModeSets" Setable="0">
+        <Param>
+            <Mode>MIC</Mode>
+        </Param>
+    </DstRes>
+    <DstRes Type="IA" Idx="0" OptID="CFG_IA_InputMode" Setable="0">
+        <Param Value="MIC"></Param>
+    </DstRes>
+    <DstRes Type="IA" Idx="0" OptID="CFG_IA_ChanNum" Setable="0">
+        <Param Value="1"></Param>
+    </DstRes>
+    <DstRes Type="IA" Idx="0" OptID="CFG_IA_SupportedSampleRateSets" Setable="0">
+        <Param>
+            <SampleRate>8000</SampleRate>
+        </Param>
+    </DstRes>
+    <DstRes Type="IA" Idx="0" OptID="CFG_IA_SampleRate" Setable="0">
+        <Param Value="8000"></Param>
+    </DstRes>
+    <DstRes Type="IA" Idx="0" OptID="CFG_IA_SupportedEncoderSets" Setable="0">
+        <Param>
+            <Encoder>ADPCM</Encoder>
+        </Param>
+    </DstRes>
+    <DstRes Type="IA" Idx="0" OptID="CFG_IA_Encoder" Setable="0">
+        <Param Value="ADPCM"></Param>
+    </DstRes>
+    <DstRes Type="IA" Idx="0" OptID="CFG_IA_SupportedStreamTypeSets" Setable="0">
+        <Param>
+            <StreamType>REALTIME</StreamType>
+        </Param>
+    </DstRes>
+</Msg>
